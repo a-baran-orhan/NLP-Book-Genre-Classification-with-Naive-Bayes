@@ -22,3 +22,14 @@ max_df = 0.9, min_df = 2, max_features = 1000
 3. Error Analysis: I found a few misclassified books and comment on why they were hard to classified. Since there is 6 experiment total, I gave examples for some of them.
 
   - Examples at Unigram NB with Stopword- Bigram NB with Stopword- Unigram without Stopword section
+
+# Accuracy 
+
+| Methods     	| Stop-Words 	| Accuracy (%) 	|
+|-------------	|------------	|:------------:	|
+| Bow-unigram 	| Yes        	|      64,42        	|
+| Bow-unigram 	| No         	|         63,16     	|
+| Bow-bigram  	| Yes        	|           44,76   	|
+| Bow-bigram  	| No         	|       50,12       	|
+| TF-IDF      	| Yes        	|        62,12      	|
+| TF-IDF      	| No         	|       61,81       	|
